@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color: rgb(255, 215, 142);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.wholebody{
+    width: 100%;
+    background-color: white;
+}
+.wholebody .upperbody{
+width: 100%;
+height: 10%;
+border-bottom: solid 1px black;
+justify-content: space-between;
+}
+.leftbody{
+display: flex;
+align-items: center;
+margin: 0 5px;
+padding: 1rem;
+}
+.leftbody .Name{
+    margin: 0 5px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.leftbody .job{
+    display: flex;
+    flex-direction:row;
+    font-weight: 300;
+}
+.rightbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightbody .clicks{
+    margin: 0 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    padding: 2px;
+}
+.icons{
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    padding: 2px;
+}
+.restofthebody{
+    display: flex;  
+    align-items: center;
+    margin-left: 10rem;
+    padding-top: 5rem;
+}
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin:5rem;
+    gap: 2rem;
+}
+.lowers{
+    display: flex;  
+    align-items: center;
+    margin: 0 10rem;
+    gap: 6rem;
+}.lower img{
+    width: 100%;
+}
+
+.lowerscontent{
+    display: flex;  
+    align-items: center;
+    margin: 0 10rem; 
+    
+}
+.lowerimage{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.below{
+    height: 50%;
+    background-color: black; 
+    margin-top: 2rem;
+    color: white;
+}
+.blackareatitle{
+    display: flex;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+}
+.more{
+    display: flex;
+    gap: 65rem;
+}
+.theblackareapics{
+    display: flex;
+    margin-left: 8rem;
+    gap: 8rem;
+}
+.blackareadetails{
+    display: flex;
+    margin-left: 8rem;
+    padding-top: 1rem;
+    gap: 3rem;
+}
+.blackareadetails2{
+    margin-left: 6rem;
+}
+.blackareadetails3{
+    margin-left: 4rem;
+}
+.post{
+    display: flex;
+    margin-left: 8rem;
+    padding-top: 1rem;
+    gap: 25rem;
+    padding: 1rem;
+}
+.post1{
+    border: 1px solid white;
+}
+.post2{
+    border: 1px solid white;  
+}
+.post3{
+    border: 1px solid white; 
+}
+.Savinglives{
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 65rem;
+}
+.Savinglives{
+    padding-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+}
+.see{
+    display: flex;
+}
+.sl{
+    display: flex;
+    gap: 4rem;
+    margin: 2rem;
+}
+.savinglivesdetails1{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+}
+.savinglivesdetails2{
+    display: flex;
+    gap: 2rem;
+}
+.AI{
+margin-left: 8rem;
+margin-top: 8rem;
+}
+.AIPIC{
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 3rem;
+}
+.AIDETAILS{
+    display: flex;
+    gap: 2rem;
+    margin: 3rem;
+}
+.AIDETAILS2{
+    display: flex;
+    margin: 2rem;
+}
+.titleeducation{
+    margin-left: 8rem;
+    margin-top: 8rem;
+}
+.education{
+    display: flex;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+.educationcontent{
+    display: flex;
+    margin: 2rem 2rem;
+    gap: 2rem;
+}
+.titleclimateandenergy{
+    margin-left: 8rem;
+    margin-top: 8rem;
+}
+.climateandenergy{
+    display: flex;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+.climateandenergycontent{
+    display: flex;
+    margin: 2rem 2rem;
+    gap: 2rem;
+}
+.titlebookreviews{
+    margin-left: 8rem;
+    margin-top: 8rem;
+}
+.bookreviews{
+    display: flex;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+.bookreviewscontent{
+    display: flex;
+    margin: 2rem 2rem;
+    gap: 2rem;
+}
+.panelarea{
+    height: 60%;
+    background-color: black; 
+    margin-top: 2rem;
+    color: white;
+}
